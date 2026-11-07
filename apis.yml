@@ -1,0 +1,28 @@
+aid: anon-li
+name: anon.li
+description: 'anon.li is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/anon-li/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-06'
+modified: '2026-11-06'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://anon.li
+- type: Documentation
+  url: https://anon.li/docs/api
+x-submission-notes: AGPL privacy suite; REST API keys; llms.txt; OAuth remote MCP https://anon.li/api/mcp
+  (io.github.anondotli/anon-li); source github.com/anondotli/anon.li (emailed)
+x-submitted-by: hi@anon.li (apisio-add-form, 2026-11-06)
