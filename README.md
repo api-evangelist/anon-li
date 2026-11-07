@@ -64,5 +64,140 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-anon.li is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://anon.li
+anon.li provides privacy-first email aliasing, end-to-end encrypted file sharing, and confidential forms, allowing users to protect their identity by forwarding email without exposing personal addresses, sharing files with client‑side encryption, and collecting responses that only they can decrypt.
+
+**Areas:** Company · Privacy · Email · Encryption · FileSharing · Forms
+
+## anon.li on APIs.io
+
+Everything profiled for anon.li is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/anon-li/](https://apis.io/providers/anon-li/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [anon.li API](https://apis.io/apis/anon-li/anon-li-api-2/) — REST API for email aliasing, encrypted file sharing, and confidential forms.
+- [anon.li API](https://apis.io/apis/anon-li/anon-li-api/) — anon.li API as documented publicly: 36 operations. Contract generated from the documentation by API Evangelist (2026-11-06); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1FormIdResponse](https://apis.io/schemas/anon-li/anon-li-get-api-v1-form-id-response/)
+- [PatchApiV1FormIdRequest](https://apis.io/schemas/anon-li/anon-li-patch-api-v1-form-id-request/)
+- [PostApiV1DomainResponse](https://apis.io/schemas/anon-li/anon-li-post-api-v1-domain-response/)
+- [PostApiV1DropResponse](https://apis.io/schemas/anon-li/anon-li-post-api-v1-drop-response/)
+- [PostApiV1FormIdSubmitRequest](https://apis.io/schemas/anon-li/anon-li-post-api-v1-form-id-submit-request/)
+- [PostApiV1FormRequest](https://apis.io/schemas/anon-li/anon-li-post-api-v1-form-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Anon Li Context](https://apis.io/jsonld/anon-li/anon-li-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [anon.li API Rules](https://apis.io/rules/anon-li/anon-li-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Anon Li Authentication](https://apis.io/security/anon-li/anon-li-authentication/)
+- [Anon Li Domain Security](https://apis.io/security/anon-li/anon-li-domain-security/)
+- [Anon Li Vulnerability Disclosure](https://apis.io/security/anon-li/anon-li-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Anon Li Scopes](https://apis.io/scopes/anon-li/anon-li-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Anon Li Plans Pricing](https://apis.io/plans/anon-li/anon-li-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Anon Li Rate Limits](https://apis.io/rate-limits/anon-li/anon-li-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://anon.li)
+- [Documentation](https://anon.li/docs/api)
+- [Getting started](https://anon.li/docs/getting-started)
+- [API reference](https://anon.li/docs/api)
+- [Pricing](https://anon.li/pricing)
+- [Sign up](https://anon.li/login)
+- [Blog](https://anon.li/blog)
+- [Security](https://anon.li/security)
+- [Terms of service](https://anon.li/terms)
+- [Privacy policy](https://anon.li/privacy)
+- [GitHub](https://github.com/anondotli)
+
+## API Evangelist rating
+
+**Kin Score 59.5** — strong · rubric 0.26.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 34.7 |
+| Developer ergonomics | 59.5 |
+| Access clarity | 63.7 |
+
+**Agent readiness 43.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/anon-li/](https://apis.io/providers/anon-li/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for anon.li: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/anon-li/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
